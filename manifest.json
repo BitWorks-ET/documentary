@@ -1,0 +1,1741 @@
+{
+  "source_base_path": "C:/Users/Administrator/source/repos/Event-Tool/EventTool",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Controllers.AccountController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Controllers.AccountController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Controllers.AccountController",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Controllers.AccountController.yml\" sourcestartlinenumber=\"1\">Stellt API-Endpunkte zur Verwaltung von Benutzern bereit.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Controllers.AuthenticateController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Controllers.AuthenticateController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Controllers.AuthenticateController",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Controllers.AuthenticateController.yml\" sourcestartlinenumber=\"1\">Bietet Endpunkte zur Authentifizierung von Benutzern.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Controllers.EMailController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Controllers.EMailController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Controllers.EMailController",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Controllers.EMailController.yml\" sourcestartlinenumber=\"1\">Stellt API-Endpunkte zur Verwaltung von E-Mail-bezogenen Daten bereit.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Controllers.EventController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Controllers.EventController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Controllers.EventController",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Controllers.EventController.yml\" sourcestartlinenumber=\"1\">Bietet API-Endpunkte zur Verwaltung von Event-Daten.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Controllers.FileManagementController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Controllers.FileManagementController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Controllers.FileManagementController",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Controllers.FileManagementController.yml\" sourcestartlinenumber=\"1\">Bietet API-Endpunkte zur Verwaltung von Dateien.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Controllers.OrganizationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Controllers.OrganizationController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Controllers.OrganizationController",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Controllers.OrganizationController.yml\" sourcestartlinenumber=\"1\">Bietet API-Endpunkte zur Verwaltung von Organisationen.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Controllers.ProcessController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Controllers.ProcessController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Controllers.ProcessController",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Controllers.ProcessController.yml\" sourcestartlinenumber=\"1\">Stellt API-Endpunkte zur Verwaltung von Prozessen bereit.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Controllers.ProcessStepController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Controllers.ProcessStepController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Controllers.ProcessStepController",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Controllers.ProcessStepController.yml\" sourcestartlinenumber=\"1\">Stellt API-Endpunkte zur Verwaltung von Prozessschritten bereit.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Controllers.UserController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Controllers.UserController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Controllers.UserController",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Controllers.UserController.yml\" sourcestartlinenumber=\"1\">Stellt API-Endpunkte zur Benutzerverwaltung bereit.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Controllers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Controllers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Extensions.SqliteExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Extensions.SqliteExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Extensions.SqliteExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Models.Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Models.Account.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Models.Account",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Models.Account.yml\" sourcestartlinenumber=\"1\">Repräsentiert ein Benutzerkonto mit zugehöriger Organisation, Benutzer, Rolle und Events.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Models.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Models.Event.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Models.Event",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Models.Event.yml\" sourcestartlinenumber=\"1\">Repräsentiert eine Veranstaltung innerhalb einer Organisation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Models.Organization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Models.Organization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Models.Organization",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Models.Organization.yml\" sourcestartlinenumber=\"1\">Repräsentiert eine Organisation mit Name, Beschreibung, Domain und zugehörigen Elementen.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Models.Process.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Models.Process.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Models.Process",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Models.Process.yml\" sourcestartlinenumber=\"1\">Repräsentiert einen Prozess innerhalb einer Organisation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Models.ProcessStep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Models.ProcessStep.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Models.ProcessStep",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Models.ProcessStep.yml\" sourcestartlinenumber=\"1\">Repräsentiert einen einzelnen Schritt innerhalb eines Prozesses.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Models.Role.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Models.Role.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Models.Role",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Models.Role.yml\" sourcestartlinenumber=\"1\">Definiert die möglichen Rollen eines Benutzers innerhalb einer Organisation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Models.Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Models.Status.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Models.Status",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Models.Status.yml\" sourcestartlinenumber=\"1\">Gibt den aktuellen Status eines Prozesses oder Events an.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Models.Trigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Models.Trigger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Models.Trigger",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Models.Trigger.yml\" sourcestartlinenumber=\"1\">Repräsentiert einen Auslöser (Trigger), der bei bestimmten Bedingungen einen Prozessschritt starten kann.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Models.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Models.User.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Models.User",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Models.User.yml\" sourcestartlinenumber=\"1\">Repräsentiert einen Benutzer mit persönlichen Informationen und zugehörigen Accounts.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Authentication.EmailVerificationTokenRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Authentication.EmailVerificationTokenRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Authentication.EmailVerificationTokenRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Authentication.IEmailVerificationTokenRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Authentication.IEmailVerificationTokenRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Authentication.IEmailVerificationTokenRepository",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Repository.Authentication.IEmailVerificationTokenRepository.yml\" sourcestartlinenumber=\"1\">Definiert Methoden zum Verwalten von E-Mail-Verifizierungstoken.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Authentication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Authentication.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Authentication",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.DatabaseInitializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.DatabaseInitializer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.DatabaseInitializer",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Repository.DatabaseInitializer.yml\" sourcestartlinenumber=\"1\">Initialisiert und verwaltet die Datenbankstruktur für das Event-Tool.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.DbUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.DbUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.DbUtils",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Repository.DbUtils.yml\" sourcestartlinenumber=\"1\">Stellt Erweiterungen und Hilfsmethoden für Datenbankoperationen bereit.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Event.DateOnlyTypeHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Event.DateOnlyTypeHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Event.DateOnlyTypeHandler",
+      "Summary": "<p>Custom <strong>Dapper type-handler</strong> für <xref href=\"System.DateOnly\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n<p>\n • Schreibt <code>DateOnly</code> als <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref> in die DB (SQLite &amp; SQL-Server kompatibel).  \n • Liest Werte aus <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> („yyyy-MM-dd[ HH:mm:ss]“)  \n \u2003und <xref href=\"System.Int64\" data-throw-if-not-resolved=\"false\"></xref> (Ticks) sicher ein.\n</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Event.EventRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Event.EventRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Event.EventRepository",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Repository.Event.EventRepository.yml\" sourcestartlinenumber=\"1\">Repository zur Verwaltung von Event-Datenbankoperationen.\nUnterstützt CRUD-Operationen sowie Teilnehmerverwaltung.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Event.IEventRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Event.IEventRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Event.IEventRepository",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Repository.Event.IEventRepository.yml\" sourcestartlinenumber=\"1\">Definiert die Schnittstelle für alle Event-bezogenen Datenbankoperationen.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Event.TimeOnlyTypeHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Event.TimeOnlyTypeHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Event.TimeOnlyTypeHandler",
+      "Summary": "<p>Custom <strong>Dapper type-handler</strong> für <xref href=\"System.TimeOnly\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n<p>\n • Speichert <code>TimeOnly</code> als <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref> (heutiges Datum + Zeit).  \n • Liest Werte aus <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> („HH:mm[:ss]“)  \n \u2003und <xref href=\"System.Int64\" data-throw-if-not-resolved=\"false\"></xref> (Ticks) ein.\n</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Event.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Event",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Organization.IOrganizationRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Organization.IOrganizationRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Organization.IOrganizationRepository",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Repository.Organization.IOrganizationRepository.yml\" sourcestartlinenumber=\"1\">Definiert Zugriffsmethoden auf Organisationsdaten in der Datenbank.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Organization.OrganizationRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Organization.OrganizationRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Organization.OrganizationRepository",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Repository.Organization.OrganizationRepository.yml\" sourcestartlinenumber=\"1\">Dapper-basierte Implementierung für den Datenzugriff auf Organisationen.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Organization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Organization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Organization",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Person.AccountRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Person.AccountRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Person.AccountRepository",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Repository.Person.AccountRepository.yml\" sourcestartlinenumber=\"1\">Repository für den Zugriff auf Accounts / Users – funktioniert sowohl mit\nSQLite (Dev) als auch mit Azure SQL (Prod). Plattformabhängige Details\n(Tabellennamen, Identity‑Abruf) werden zur Laufzeit ermittelt.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Person.IAccountRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Person.IAccountRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Person.IAccountRepository",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Repository.Person.IAccountRepository.yml\" sourcestartlinenumber=\"1\">Definiert Methoden für den Zugriff auf Kontodaten in der Datenquelle.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Person.IUserRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Person.IUserRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Person.IUserRepository",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Repository.Person.IUserRepository.yml\" sourcestartlinenumber=\"1\">Definiert Methoden zum Zugriff auf Benutzerdaten in der Datenquelle.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Person.UserRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Person.UserRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Person.UserRepository",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Repository.Person.UserRepository.yml\" sourcestartlinenumber=\"1\">Implementierung des Repositories für den Zugriff auf Benutzerdaten.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Person.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Person.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Person",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Processes.IProcessRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Processes.IProcessRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Processes.IProcessRepository",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Repository.Processes.IProcessRepository.yml\" sourcestartlinenumber=\"1\">Definiert Methoden für den Zugriff auf Prozessdaten.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Processes.IProcessStepRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Processes.IProcessStepRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Processes.IProcessStepRepository",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Repository.Processes.IProcessStepRepository.yml\" sourcestartlinenumber=\"1\">Definiert Methoden für den Zugriff auf Prozessschritte.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Processes.ProcessRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Processes.ProcessRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Processes.ProcessRepository",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Repository.Processes.ProcessRepository.yml\" sourcestartlinenumber=\"1\">Implementierung für den Datenzugriff auf Prozesse.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Processes.ProcessStepRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Processes.ProcessStepRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Processes.ProcessStepRepository",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Repository.Processes.ProcessStepRepository.yml\" sourcestartlinenumber=\"1\">Implementierung für den Datenzugriff auf Prozessschritte.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.Processes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.Processes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository.Processes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Repository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Repository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Repository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Administration.AdministrationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Administration.AdministrationService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Administration.AdministrationService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Administration.AdministrationService.yml\" sourcestartlinenumber=\"1\">Implementierung administrativer Systemfunktionen.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Administration.IAdministrationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Administration.IAdministrationService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Administration.IAdministrationService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Administration.IAdministrationService.yml\" sourcestartlinenumber=\"1\">Definiert administrative Kernfunktionen für das System.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Administration.ILogService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Administration.ILogService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Administration.ILogService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Administration.ILogService.yml\" sourcestartlinenumber=\"1\">Definiert Methoden zum Zugriff auf und zur Verwaltung von Logdaten.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Administration.LogService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Administration.LogService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Administration.LogService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Administration.LogService.yml\" sourcestartlinenumber=\"1\">Implementierung des Dienstes zur Verwaltung und Analyse von Logdaten.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Administration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Administration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Administration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Event.EventService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Event.EventService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Event.EventService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Event.EventService.yml\" sourcestartlinenumber=\"1\">Service für die Verarbeitung und Verwaltung von Event-bezogenen Vorgängen.\nNutzt Repositorys für Events, Organisationen und Accounts.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Event.FileManagementService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Event.FileManagementService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Event.FileManagementService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Event.IEventService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Event.IEventService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Event.IEventService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Event.IEventService.yml\" sourcestartlinenumber=\"1\">Definiert die Schnittstelle für Event-bezogene Service-Operationen.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Event.IFileManagementService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Event.IFileManagementService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Event.IFileManagementService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Event.IFileManagementService.yml\" sourcestartlinenumber=\"1\">Definiert Funktionen zum Verwalten von Dateien im Zusammenhang mit Events.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Event.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Event",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Helper.Authentication.AuthenticateService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Helper.Authentication.AuthenticateService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Helper.Authentication.AuthenticateService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Helper.Authentication.AuthenticateService.yml\" sourcestartlinenumber=\"1\">Service zur Authentifizierung von Benutzern und Generierung von JWTs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Helper.Authentication.IAuthenticateService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Helper.Authentication.IAuthenticateService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Helper.Authentication.IAuthenticateService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Helper.Authentication.IAuthenticateService.yml\" sourcestartlinenumber=\"1\">Definiert die Authentifizierungsfunktionalität für Benutzer.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Helper.Authentication.JwtBaererOptionsSetup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Helper.Authentication.JwtBaererOptionsSetup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Helper.Authentication.JwtBaererOptionsSetup",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Helper.Authentication.JwtOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Helper.Authentication.JwtOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Helper.Authentication.JwtOptions",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Helper.Authentication.JwtOptions.yml\" sourcestartlinenumber=\"1\">Stellt die Konfigurationsoptionen für die JWT-Authentifizierung bereit.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Helper.Authentication.JwtOptionsSetup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Helper.Authentication.JwtOptionsSetup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Helper.Authentication.JwtOptionsSetup",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Helper.Authentication.JwtOptionsSetup.yml\" sourcestartlinenumber=\"1\">Bindet die JWT-Konfiguration aus der Konfigurationsdatei (z.\u202FB. appsettings.json) an ein <xref href=\"ET_Backend.Services.Helper.Authentication.JwtOptions\" data-throw-if-not-resolved=\"false\"></xref>-Objekt.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Helper.Authentication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Helper.Authentication.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Helper.Authentication",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Helper.EMailService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Helper.EMailService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Helper.EMailService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Helper.EMailService.yml\" sourcestartlinenumber=\"1\">SMTP-Implementierung von <xref href=\"ET_Backend.Services.Helper.IEMailService\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Helper.IEMailService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Helper.IEMailService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Helper.IEMailService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Helper.IEMailService.yml\" sourcestartlinenumber=\"1\">Abstrakte Schnittstelle zum Versenden von E-Mails.<br>\nWird überall dort injiziert, wo Mails verschickt werden (z. B. Registrierung,\nErinnerungen). So kann der Dienst im Testfall gemockt werden.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Helper.IWorkerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Helper.IWorkerService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Helper.IWorkerService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Helper.WorkerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Helper.WorkerService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Helper.WorkerService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Helper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Helper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Mapping.EventListMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Mapping.EventListMapper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Mapping.EventListMapper",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Mapping.EventListMapper.yml\" sourcestartlinenumber=\"1\">Stellt Mappingmethoden für Event-Listen zur Verfügung.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Mapping.UserMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Mapping.UserMapper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Mapping.UserMapper",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Mapping.UserMapper.yml\" sourcestartlinenumber=\"1\">Stellt Mapping-Methoden zwischen User-Modell und User-DTO bereit.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Mapping.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Mapping",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Organization.IOrganizationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Organization.IOrganizationService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Organization.IOrganizationService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Organization.IOrganizationService.yml\" sourcestartlinenumber=\"1\">Service-Interface für alle Organisations-Operationen.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Organization.ISearchService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Organization.ISearchService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Organization.ISearchService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Organization.OrganizationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Organization.OrganizationService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Organization.OrganizationService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Organization.OrganizationService.yml\" sourcestartlinenumber=\"1\">Service-Klasse zur Verwaltung von Organisationen, inkl. Erstellung, Abfragen,\nBearbeitung, Mitgliederverwaltung und Löschung.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Organization.SearchService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Organization.SearchService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Organization.SearchService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Organization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Organization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Organization",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Person.AccountService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Person.AccountService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Person.AccountService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Person.AccountService.yml\" sourcestartlinenumber=\"1\">Service-Klasse zur Kapselung der Geschäftslogik rund um Benutzerkonten.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Person.IAccountService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Person.IAccountService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Person.IAccountService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Person.IAccountService.yml\" sourcestartlinenumber=\"1\">Definiert die Schnittstelle für Services zur Verwaltung von Benutzerkonten.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Person.IUserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Person.IUserService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Person.IUserService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Person.IUserService.yml\" sourcestartlinenumber=\"1\">Definiert die Schnittstelle für Benutzerservices,\nz.\u202FB. für Profil- und Mitgliedschaftsverwaltung.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Person.UserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Person.UserService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Person.UserService",
+      "Summary": "<p sourcefile=\"api/ET_Backend.Services.Person.UserService.yml\" sourcestartlinenumber=\"1\">Implementiert die Geschäftslogik für Benutzeroperationen wie Profilverwaltung,\nMitgliedschaften, E-Mail-Änderungen und Benutzerlöschung.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Person.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Person.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Person",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Processes.IProcessService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Processes.IProcessService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Processes.IProcessService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Processes.IProcessStepService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Processes.IProcessStepService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Processes.IProcessStepService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Processes.ProcessService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Processes.ProcessService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Processes.ProcessService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Processes.ProcessStepService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Processes.ProcessStepService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Processes.ProcessStepService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Backend.Services.Processes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Backend.Services.Processes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Backend.Services.Processes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Helpers.DtoMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Helpers.DtoMapper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Helpers.DtoMapper",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Helpers.DtoMapper.yml\" sourcestartlinenumber=\"1\">Stellt Methoden zur Konvertierung zwischen OrganizationDto und OrgaChangeModel bereit.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Helpers.JwtClaimHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Helpers.JwtClaimHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Helpers.JwtClaimHelper",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Helpers.JwtClaimHelper.yml\" sourcestartlinenumber=\"1\">Stellt Hilfsmethoden zum komfortablen und konsistenten Auslesen von JWT-Claims im Frontend bereit.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Helpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Helpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Mapping.DtoMembershipMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Mapping.DtoMembershipMapper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Mapping.DtoMembershipMapper",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Mapping.DtoMembershipMapper.yml\" sourcestartlinenumber=\"1\">Stellt eine statische Hilfsklasse zum Konvertieren von <xref href=\"ET.Shared.DTOs.MembershipDto\" data-throw-if-not-resolved=\"false\"></xref>\nin <xref href=\"ET_Frontend.Models.AccountManagement.MembershipViewModel\" data-throw-if-not-resolved=\"false\"></xref> bereit.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Mapping.EventListViewMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Mapping.EventListViewMapper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Mapping.EventListViewMapper",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Mapping.EventListViewMapper.yml\" sourcestartlinenumber=\"1\">Stellt Methoden bereit, um <xref href=\"ET.Shared.DTOs.EventListDto\" data-throw-if-not-resolved=\"false\"></xref> in <xref href=\"ET_Frontend.Models.Event.EventViewModel\" data-throw-if-not-resolved=\"false\"></xref> zu konvertieren.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Mapping.ProcessStepViewMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Mapping.ProcessStepViewMapper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Mapping.ProcessStepViewMapper",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Mapping.ProcessStepViewMapper.yml\" sourcestartlinenumber=\"1\">Enthält Mapping-Methoden zwischen ProcessStepDto und ProcessStepViewModel.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Mapping.ProcessViewMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Mapping.ProcessViewMapper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Mapping.ProcessViewMapper",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Mapping.ProcessViewMapper.yml\" sourcestartlinenumber=\"1\">Enthält Mapping-Methoden zwischen UserDto und UserEditViewModel.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Mapping.UserViewMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Mapping.UserViewMapper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Mapping.UserViewMapper",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Mapping.UserViewMapper.yml\" sourcestartlinenumber=\"1\">Enthält Mapping-Methoden zwischen UserDto und UserEditViewModel.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Mapping.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Mapping",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Models.AccountManagement.MembershipViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Models.AccountManagement.MembershipViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Models.AccountManagement.MembershipViewModel",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Models.AccountManagement.MembershipViewModel.yml\" sourcestartlinenumber=\"1\">Stellt eine Benutzer-Mitgliedschaft in einer Organisation dar – wird im Frontend angezeigt.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Models.AccountManagement.UserEditViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Models.AccountManagement.UserEditViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Models.AccountManagement.UserEditViewModel",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Models.AccountManagement.UserEditViewModel.yml\" sourcestartlinenumber=\"1\">ViewModel zur Bearbeitung von Benutzerdaten im Frontend.\nBeinhaltet Vorname, Nachname und Passwort.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Models.AccountManagement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Models.AccountManagement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Models.AccountManagement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Models.Enums.EventStates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Models.Enums.EventStates.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Models.Enums.EventStates",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Models.Enums.EventStates.yml\" sourcestartlinenumber=\"1\">Definiert mögliche Zustände eines Events im Event-Tool.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Models.Enums.ProcessStepCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Models.Enums.ProcessStepCondition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Models.Enums.ProcessStepCondition",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Models.Enums.ProcessStepCondition.yml\" sourcestartlinenumber=\"1\">Definiert Bedingungen, unter denen ein Prozessschritt ausgelöst wird.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Models.Enums.ProcessStepTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Models.Enums.ProcessStepTrigger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Models.Enums.ProcessStepTrigger",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Models.Enums.ProcessStepTrigger.yml\" sourcestartlinenumber=\"1\">Repräsentiert verschiedene Trigger, die einen Prozessschritt auslösen können.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Models.Enums.ProcessStepType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Models.Enums.ProcessStepType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Models.Enums.ProcessStepType",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Models.Enums.ProcessStepType.yml\" sourcestartlinenumber=\"1\">Gibt an, welche Aktion in einem Prozessschritt ausgeführt werden soll.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Models.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Models.Enums.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Models.Enums",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Models.Event.EventViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Models.Event.EventViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Models.Event.EventViewModel",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Models.Event.EventViewModel.yml\" sourcestartlinenumber=\"1\">Repräsentiert die Ansichtsdaten eines Events im Frontend.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Models.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Models.Event.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Models.Event",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Models.OrgaChangeModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Models.OrgaChangeModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Models.OrgaChangeModel",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Models.OrgaChangeModel.yml\" sourcestartlinenumber=\"1\">ViewModel zur Bearbeitung einer Organisation im Frontend.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Models.OrganizationMemberViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Models.OrganizationMemberViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Models.OrganizationMemberViewModel",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Models.OrganizationMemberViewModel.yml\" sourcestartlinenumber=\"1\">ViewModel zur Darstellung eines Organisationsmitglieds im Frontend.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Models.ProcessStepViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Models.ProcessStepViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Models.ProcessStepViewModel",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Models.ProcessStepViewModel.yml\" sourcestartlinenumber=\"1\">ViewModel zur Darstellung eines Prozessschritts im Frontend.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Models.ProcessViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Models.ProcessViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Models.ProcessViewModel",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Models.ProcessViewModel.yml\" sourcestartlinenumber=\"1\">Repräsentiert einen Prozess, der aus mehreren Prozessschritten besteht.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Services.ApiClients.EventApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Services.ApiClients.EventApi.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Services.ApiClients.EventApi",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Services.ApiClients.EventApi.yml\" sourcestartlinenumber=\"1\">Kapselt alle Event-bezogenen HTTP-Aufrufe.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Services.ApiClients.IEventApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Services.ApiClients.IEventApi.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Services.ApiClients.IEventApi",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Services.ApiClients.IProcessAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Services.ApiClients.IProcessAPI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Services.ApiClients.IProcessAPI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Services.ApiClients.IUserApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Services.ApiClients.IUserApi.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Services.ApiClients.IUserApi",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Services.ApiClients.IUserApi.yml\" sourcestartlinenumber=\"1\">Schnittstelle zur Kapselung der API-Aufrufe für Benutzeraktionen.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Services.ApiClients.ProcessAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Services.ApiClients.ProcessAPI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Services.ApiClients.ProcessAPI",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Services.ApiClients.ProcessAPI.yml\" sourcestartlinenumber=\"1\">Implementierung der Benutzer-API für das Frontend.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Services.ApiClients.UserApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Services.ApiClients.UserApi.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Services.ApiClients.UserApi",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Services.ApiClients.UserApi.yml\" sourcestartlinenumber=\"1\">Implementierung der Benutzer-API für das Frontend.\nBeinhaltet Aufrufe zur Benutzerverwaltung (Profil, Mitgliedschaften etc.).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Services.ApiClients.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Services.ApiClients.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Services.ApiClients",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Services.Authentication.ILoginService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Services.Authentication.ILoginService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Services.Authentication.ILoginService",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Services.Authentication.ILoginService.yml\" sourcestartlinenumber=\"1\">Stellt Login- und Logout-Methoden für Benutzer bereit.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Services.Authentication.JwtAuthenticationStateProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Services.Authentication.JwtAuthenticationStateProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Services.Authentication.JwtAuthenticationStateProvider",
+      "Summary": "<p sourcefile=\"api/ET_Frontend.Services.Authentication.JwtAuthenticationStateProvider.yml\" sourcestartlinenumber=\"1\">AuthenticationStateProvider für JWT-basierte Authentifizierung.\nLiest das Token aus dem SessionStorage, analysiert Claims und liefert den aktuellen Authentifizierungszustand.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ET_Frontend.Services.Authentication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ET_Frontend.Services.Authentication.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ET_Frontend.Services.Authentication",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Services.Authentication.LoginService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Services.Authentication.LoginService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Services.Authentication.LoginService",
+      "Summary": "<p sourcefile=\"api/Services.Authentication.LoginService.yml\" sourcestartlinenumber=\"1\">Implementierung des Login-Dienstes für JWT-basierte Authentifizierung.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Services.Authentication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Services.Authentication.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Services.Authentication",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
