@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class EventRepository | EventTool API-Dokumentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class EventRepository | EventTool API-Dokumentation ">
+    
+    <meta name="description" content="Repository zur Verwaltung von Event-Datenbankoperationen. Unterst&#252;tzt CRUD-Operationen sowie Teilnehmerverwaltung.">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ET_Backend.Repository.Event.EventRepository">
+
+
+
+  <h1 id="ET_Backend_Repository_Event_EventRepository" data-uid="ET_Backend.Repository.Event.EventRepository" class="text-break">Class EventRepository</h1>
+  <div class="markdown level0 summary"><p>Repository zur Verwaltung von Event-Datenbankoperationen.
+Unterstützt CRUD-Operationen sowie Teilnehmerverwaltung.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">EventRepository</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="ET_Backend.Repository.Event.IEventRepository.html">IEventRepository</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ET_Backend.html">ET_Backend</a>.<a class="xref" href="ET_Backend.Repository.html">Repository</a>.<a class="xref" href="ET_Backend.Repository.Event.html">Event</a></h6>
+  <h6><strong>Assembly</strong>: ET_Backend.dll</h6>
+  <h5 id="ET_Backend_Repository_Event_EventRepository_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EventRepository : IEventRepository</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+
+
+  <a id="ET_Backend_Repository_Event_EventRepository__ctor_" data-uid="ET_Backend.Repository.Event.EventRepository.#ctor*"></a>
+  <h4 id="ET_Backend_Repository_Event_EventRepository__ctor_System_Data_IDbConnection_" data-uid="ET_Backend.Repository.Event.EventRepository.#ctor(System.Data.IDbConnection)">EventRepository(IDbConnection)</h4>
+  <div class="markdown level1 summary"><p>Initialisiert eine neue Instanz des <a class="xref" href="ET_Backend.Repository.Event.EventRepository.html">EventRepository</a> mit einer DB-Verbindung.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventRepository(IDbConnection db)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idbconnection">IDbConnection</a></td>
+        <td><span class="parametername">db</span></td>
+        <td><p>Offene Datenbankverbindung</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="ET_Backend_Repository_Event_EventRepository_AddParticipant_" data-uid="ET_Backend.Repository.Event.EventRepository.AddParticipant*"></a>
+  <h4 id="ET_Backend_Repository_Event_EventRepository_AddParticipant_System_Int32_System_Int32_" data-uid="ET_Backend.Repository.Event.EventRepository.AddParticipant(System.Int32,System.Int32)">AddParticipant(int, int)</h4>
+  <div class="markdown level1 summary"><p>Fügt einen Account als Teilnehmer zu einem Event hinzu.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&gt; AddParticipant(int accountId, int eventId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">accountId</span></td>
+        <td><p>Die ID des Accounts.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">eventId</span></td>
+        <td><p>Die ID des Events.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&gt;</td>
+        <td><p>Ein Result, das den Erfolg der Operation angibt.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Event_EventRepository_CreateEvent_" data-uid="ET_Backend.Repository.Event.EventRepository.CreateEvent*"></a>
+  <h4 id="ET_Backend_Repository_Event_EventRepository_CreateEvent_ET_Backend_Models_Event_System_Int32_" data-uid="ET_Backend.Repository.Event.EventRepository.CreateEvent(ET_Backend.Models.Event,System.Int32)">CreateEvent(Event, int)</h4>
+  <div class="markdown level1 summary"><p>Erstellt ein neues Event und speichert es in der Datenbank.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&lt;Event&gt;&gt; CreateEvent(Event newEvent, int orgId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ET_Backend.Models.Event.html">Event</a></td>
+        <td><span class="parametername">newEvent</span></td>
+        <td><p>Das zu erstellende Event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">orgId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&lt;<a class="xref" href="ET_Backend.Models.Event.html">Event</a>&gt;&gt;</td>
+        <td><p>Ein Result mit dem erstellten Event.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Event_EventRepository_DeleteEvent_" data-uid="ET_Backend.Repository.Event.EventRepository.DeleteEvent*"></a>
+  <h4 id="ET_Backend_Repository_Event_EventRepository_DeleteEvent_System_Int32_" data-uid="ET_Backend.Repository.Event.EventRepository.DeleteEvent(System.Int32)">DeleteEvent(int)</h4>
+  <div class="markdown level1 summary"><p>Löscht ein Event samt aller zugehörigen Verknüpfungen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&gt; DeleteEvent(int eventId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">eventId</span></td>
+        <td><p>Die ID des zu löschenden Events.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&gt;</td>
+        <td><p>Ein Result, das angibt, ob der Löschvorgang erfolgreich war.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Event_EventRepository_EditEvent_" data-uid="ET_Backend.Repository.Event.EventRepository.EditEvent*"></a>
+  <h4 id="ET_Backend_Repository_Event_EventRepository_EditEvent_ET_Backend_Models_Event_" data-uid="ET_Backend.Repository.Event.EventRepository.EditEvent(ET_Backend.Models.Event)">EditEvent(Event)</h4>
+  <div class="markdown level1 summary"><p>Aktualisiert ein bestehendes Event in der Datenbank.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&gt; EditEvent(Event ev)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ET_Backend.Models.Event.html">Event</a></td>
+        <td><span class="parametername">ev</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&gt;</td>
+        <td><p>Ein Result, das den Erfolg der Operation angibt.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Event_EventRepository_EventExists_" data-uid="ET_Backend.Repository.Event.EventRepository.EventExists*"></a>
+  <h4 id="ET_Backend_Repository_Event_EventRepository_EventExists_System_Int32_" data-uid="ET_Backend.Repository.Event.EventRepository.EventExists(System.Int32)">EventExists(int)</h4>
+  <div class="markdown level1 summary"><p>Prüft, ob ein Event mit der angegebenen ID existiert.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&lt;bool&gt;&gt; EventExists(int eventId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">eventId</span></td>
+        <td><p>Die ID des Events.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</td>
+        <td><p>Ein Result, das angibt, ob das Event existiert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Event_EventRepository_GetEvent_" data-uid="ET_Backend.Repository.Event.EventRepository.GetEvent*"></a>
+  <h4 id="ET_Backend_Repository_Event_EventRepository_GetEvent_System_Int32_" data-uid="ET_Backend.Repository.Event.EventRepository.GetEvent(System.Int32)">GetEvent(int)</h4>
+  <div class="markdown level1 summary"><p>Ruft ein einzelnes Event anhand seiner ID ab.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&lt;Event&gt;&gt; GetEvent(int eventId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">eventId</span></td>
+        <td><p>Die ID des Events.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&lt;<a class="xref" href="ET_Backend.Models.Event.html">Event</a>&gt;&gt;</td>
+        <td><p>Ein Result mit dem gefundenen Event oder ein Fehler, falls nicht vorhanden.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Event_EventRepository_GetEventsByOrganization_" data-uid="ET_Backend.Repository.Event.EventRepository.GetEventsByOrganization*"></a>
+  <h4 id="ET_Backend_Repository_Event_EventRepository_GetEventsByOrganization_System_Int32_" data-uid="ET_Backend.Repository.Event.EventRepository.GetEventsByOrganization(System.Int32)">GetEventsByOrganization(int)</h4>
+  <div class="markdown level1 summary"><p>Ruft alle Events einer bestimmten Organisation ab.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&lt;List&lt;Event&gt;&gt;&gt; GetEventsByOrganization(int orgId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">orgId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ET_Backend.Models.Event.html">Event</a>&gt;&gt;&gt;</td>
+        <td><p>Ein Result mit einer Liste der zugehörigen Events.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Event_EventRepository_RemoveParticipant_" data-uid="ET_Backend.Repository.Event.EventRepository.RemoveParticipant*"></a>
+  <h4 id="ET_Backend_Repository_Event_EventRepository_RemoveParticipant_System_Int32_System_Int32_" data-uid="ET_Backend.Repository.Event.EventRepository.RemoveParticipant(System.Int32,System.Int32)">RemoveParticipant(int, int)</h4>
+  <div class="markdown level1 summary"><p>Entfernt einen Account als Teilnehmer aus einem Event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&gt; RemoveParticipant(int accountId, int eventId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">accountId</span></td>
+        <td><p>Die ID des Accounts.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">eventId</span></td>
+        <td><p>Die ID des Events.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&gt;</td>
+        <td><p>Ein Result, das den Erfolg der Operation angibt.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="ET_Backend.Repository.Event.IEventRepository.html">IEventRepository</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

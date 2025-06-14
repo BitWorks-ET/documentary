@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class AccountRepository | EventTool API-Dokumentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class AccountRepository | EventTool API-Dokumentation ">
+    
+    <meta name="description" content="Repository f&#252;r den Zugriff auf Accounts / Users – funktioniert sowohl mit SQLite (Dev) als auch mit Azure SQL (Prod). Plattformabh&#228;ngige Details (Tabellennamen, Identity‑Abruf) werden zur Laufzeit ermittelt.">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ET_Backend.Repository.Person.AccountRepository">
+
+
+
+  <h1 id="ET_Backend_Repository_Person_AccountRepository" data-uid="ET_Backend.Repository.Person.AccountRepository" class="text-break">Class AccountRepository</h1>
+  <div class="markdown level0 summary"><p>Repository für den Zugriff auf Accounts / Users – funktioniert sowohl mit
+SQLite (Dev) als auch mit Azure SQL (Prod). Plattformabhängige Details
+(Tabellennamen, Identity‑Abruf) werden zur Laufzeit ermittelt.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">AccountRepository</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="ET_Backend.Repository.Person.IAccountRepository.html">IAccountRepository</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ET_Backend.html">ET_Backend</a>.<a class="xref" href="ET_Backend.Repository.html">Repository</a>.<a class="xref" href="ET_Backend.Repository.Person.html">Person</a></h6>
+  <h6><strong>Assembly</strong>: ET_Backend.dll</h6>
+  <h5 id="ET_Backend_Repository_Person_AccountRepository_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AccountRepository : IAccountRepository</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+
+
+  <a id="ET_Backend_Repository_Person_AccountRepository__ctor_" data-uid="ET_Backend.Repository.Person.AccountRepository.#ctor*"></a>
+  <h4 id="ET_Backend_Repository_Person_AccountRepository__ctor_System_Data_IDbConnection_" data-uid="ET_Backend.Repository.Person.AccountRepository.#ctor(System.Data.IDbConnection)">AccountRepository(IDbConnection)</h4>
+  <div class="markdown level1 summary"><p>Erstellt ein neues <a class="xref" href="ET_Backend.Repository.Person.AccountRepository.html">AccountRepository</a> mit gegebener Datenbankverbindung.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AccountRepository(IDbConnection db)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idbconnection">IDbConnection</a></td>
+        <td><span class="parametername">db</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="ET_Backend_Repository_Person_AccountRepository_AccountExists_" data-uid="ET_Backend.Repository.Person.AccountRepository.AccountExists*"></a>
+  <h4 id="ET_Backend_Repository_Person_AccountRepository_AccountExists_System_Int32_" data-uid="ET_Backend.Repository.Person.AccountRepository.AccountExists(System.Int32)">AccountExists(int)</h4>
+  <div class="markdown level1 summary"><p>Prüft, ob ein Account mit der angegebenen ID existiert.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&lt;bool&gt;&gt; AccountExists(int accountId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">accountId</span></td>
+        <td><p>ID des Accounts.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</td>
+        <td><p>True, wenn der Account existiert; andernfalls false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Person_AccountRepository_AccountExists_" data-uid="ET_Backend.Repository.Person.AccountRepository.AccountExists*"></a>
+  <h4 id="ET_Backend_Repository_Person_AccountRepository_AccountExists_System_String_" data-uid="ET_Backend.Repository.Person.AccountRepository.AccountExists(System.String)">AccountExists(string)</h4>
+  <div class="markdown level1 summary"><p>Prüft, ob ein Account mit der angegebenen E-Mail-Adresse existiert.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&lt;bool&gt;&gt; AccountExists(string accountEMail)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">accountEMail</span></td>
+        <td><p>E-Mail-Adresse des Accounts.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</td>
+        <td><p>True, wenn der Account existiert; andernfalls false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Person_AccountRepository_CreateAccount_" data-uid="ET_Backend.Repository.Person.AccountRepository.CreateAccount*"></a>
+  <h4 id="ET_Backend_Repository_Person_AccountRepository_CreateAccount_System_String_ET_Backend_Models_Organization_ET_Backend_Models_Role_ET_Backend_Models_User_" data-uid="ET_Backend.Repository.Person.AccountRepository.CreateAccount(System.String,ET_Backend.Models.Organization,ET_Backend.Models.Role,ET_Backend.Models.User)">CreateAccount(string, Organization, Role, User)</h4>
+  <div class="markdown level1 summary"><p>Erstellt ein neues Benutzerkonto samt User und verknüpft es mit einer Organisation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&lt;Account&gt;&gt; CreateAccount(string accountEMail, Organization organization, Role role, User user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">accountEMail</span></td>
+        <td><p>E-Mail-Adresse des neuen Kontos.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ET_Backend.Models.Organization.html">Organization</a></td>
+        <td><span class="parametername">organization</span></td>
+        <td><p>Zugehörige Organisation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ET_Backend.Models.Role.html">Role</a></td>
+        <td><span class="parametername">role</span></td>
+        <td><p>Rolle innerhalb der Organisation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ET_Backend.Models.User.html">User</a></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>Benutzerprofil (Name, Passwort).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&lt;<a class="xref" href="ET_Backend.Models.Account.html">Account</a>&gt;&gt;</td>
+        <td><p>Das erstellte <a class="xref" href="ET_Backend.Models.Account.html">Account</a>-Objekt oder ein Fehler.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Person_AccountRepository_DeleteAccount_" data-uid="ET_Backend.Repository.Person.AccountRepository.DeleteAccount*"></a>
+  <h4 id="ET_Backend_Repository_Person_AccountRepository_DeleteAccount_System_Int32_" data-uid="ET_Backend.Repository.Person.AccountRepository.DeleteAccount(System.Int32)">DeleteAccount(int)</h4>
+  <div class="markdown level1 summary"><p>Löscht einen Account anhand der Account-ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&gt; DeleteAccount(int accountId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">accountId</span></td>
+        <td><p>ID des zu löschenden Accounts.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&gt;</td>
+        <td><p>Ergebnis der Operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Person_AccountRepository_DeleteAccount_" data-uid="ET_Backend.Repository.Person.AccountRepository.DeleteAccount*"></a>
+  <h4 id="ET_Backend_Repository_Person_AccountRepository_DeleteAccount_System_String_" data-uid="ET_Backend.Repository.Person.AccountRepository.DeleteAccount(System.String)">DeleteAccount(string)</h4>
+  <div class="markdown level1 summary"><p>Löscht einen Account anhand der E-Mail-Adresse.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&gt; DeleteAccount(string accountEMail)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">accountEMail</span></td>
+        <td><p>E-Mail-Adresse des zu löschenden Accounts.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&gt;</td>
+        <td><p>Ergebnis der Operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Person_AccountRepository_EditAccount_" data-uid="ET_Backend.Repository.Person.AccountRepository.EditAccount*"></a>
+  <h4 id="ET_Backend_Repository_Person_AccountRepository_EditAccount_ET_Backend_Models_Account_" data-uid="ET_Backend.Repository.Person.AccountRepository.EditAccount(ET_Backend.Models.Account)">EditAccount(Account)</h4>
+  <div class="markdown level1 summary"><p>Bearbeitet ein bestehendes Konto (E-Mail, Userdaten, Rolle).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&gt; EditAccount(Account account)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ET_Backend.Models.Account.html">Account</a></td>
+        <td><span class="parametername">account</span></td>
+        <td><p>Das aktualisierte <a class="xref" href="ET_Backend.Models.Account.html">Account</a>-Objekt.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&gt;</td>
+        <td><p>Ergebnis des Updates.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Person_AccountRepository_GetAccount_" data-uid="ET_Backend.Repository.Person.AccountRepository.GetAccount*"></a>
+  <h4 id="ET_Backend_Repository_Person_AccountRepository_GetAccount_System_Int32_" data-uid="ET_Backend.Repository.Person.AccountRepository.GetAccount(System.Int32)">GetAccount(int)</h4>
+  <div class="markdown level1 summary"><p>Ruft ein Konto anhand der ID ab (inkl. User, Organisation und Rolle).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&lt;Account&gt;&gt; GetAccount(int accountId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">accountId</span></td>
+        <td><p>Primärschlüssel des Kontos.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&lt;<a class="xref" href="ET_Backend.Models.Account.html">Account</a>&gt;&gt;</td>
+        <td><p>Das zugehörige <a class="xref" href="ET_Backend.Models.Account.html">Account</a>-Objekt oder ein Fehler.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Person_AccountRepository_GetAccount_" data-uid="ET_Backend.Repository.Person.AccountRepository.GetAccount*"></a>
+  <h4 id="ET_Backend_Repository_Person_AccountRepository_GetAccount_System_String_" data-uid="ET_Backend.Repository.Person.AccountRepository.GetAccount(System.String)">GetAccount(string)</h4>
+  <div class="markdown level1 summary"><p>Ruft ein Konto anhand der E-Mail-Adresse ab (inkl. User, Organisation und Rolle).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&lt;Account&gt;&gt; GetAccount(string accountEMail)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">accountEMail</span></td>
+        <td><p>E-Mail-Adresse des Kontos.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&lt;<a class="xref" href="ET_Backend.Models.Account.html">Account</a>&gt;&gt;</td>
+        <td><p>Das zugehörige <a class="xref" href="ET_Backend.Models.Account.html">Account</a>-Objekt oder ein Fehler.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Person_AccountRepository_GetAccountsByUser_" data-uid="ET_Backend.Repository.Person.AccountRepository.GetAccountsByUser*"></a>
+  <h4 id="ET_Backend_Repository_Person_AccountRepository_GetAccountsByUser_System_Int32_" data-uid="ET_Backend.Repository.Person.AccountRepository.GetAccountsByUser(System.Int32)">GetAccountsByUser(int)</h4>
+  <div class="markdown level1 summary"><p>Ruft alle Accounts ab, die mit einem bestimmten User verknüpft sind.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&lt;List&lt;Account&gt;&gt;&gt; GetAccountsByUser(int userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>ID des Users.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ET_Backend.Models.Account.html">Account</a>&gt;&gt;&gt;</td>
+        <td><p>Liste verknüpfter <a class="xref" href="ET_Backend.Models.Account.html">Account</a>s oder ein Fehler.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Person_AccountRepository_RemoveFromOrganization_" data-uid="ET_Backend.Repository.Person.AccountRepository.RemoveFromOrganization*"></a>
+  <h4 id="ET_Backend_Repository_Person_AccountRepository_RemoveFromOrganization_System_Int32_System_Int32_" data-uid="ET_Backend.Repository.Person.AccountRepository.RemoveFromOrganization(System.Int32,System.Int32)">RemoveFromOrganization(int, int)</h4>
+  <div class="markdown level1 summary"><p>Entfernt einen Account aus einer Organisation.
+Wird der letzte Account des Users gelöscht, wird auch der User entfernt.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&gt; RemoveFromOrganization(int accountId, int orgId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">accountId</span></td>
+        <td><p>Account-ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">orgId</span></td>
+        <td><p>ID der Organisation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&gt;</td>
+        <td><p>Ergebnis des Löschvorgangs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Person_AccountRepository_UpdateEmail_" data-uid="ET_Backend.Repository.Person.AccountRepository.UpdateEmail*"></a>
+  <h4 id="ET_Backend_Repository_Person_AccountRepository_UpdateEmail_System_Int32_System_String_" data-uid="ET_Backend.Repository.Person.AccountRepository.UpdateEmail(System.Int32,System.String)">UpdateEmail(int, string)</h4>
+  <div class="markdown level1 summary"><p>Aktualisiert die E-Mail-Adresse eines Kontos.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&gt; UpdateEmail(int accountId, string email)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">accountId</span></td>
+        <td><p>ID des Accounts.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">email</span></td>
+        <td><p>Neue E-Mail-Adresse.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&gt;</td>
+        <td><p>Ergebnis der Aktualisierung.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ET_Backend_Repository_Person_AccountRepository_UpdateEmailDomainsForOrganization_" data-uid="ET_Backend.Repository.Person.AccountRepository.UpdateEmailDomainsForOrganization*"></a>
+  <h4 id="ET_Backend_Repository_Person_AccountRepository_UpdateEmailDomainsForOrganization_System_Int32_System_String_System_String_" data-uid="ET_Backend.Repository.Person.AccountRepository.UpdateEmailDomainsForOrganization(System.Int32,System.String,System.String)">UpdateEmailDomainsForOrganization(int, string, string)</h4>
+  <div class="markdown level1 summary"><p>Ersetzt alte E-Mail-Domain durch eine neue für alle Accounts einer Organisation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&gt; UpdateEmailDomainsForOrganization(int orgId, string oldDomain, string newDomain)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">orgId</span></td>
+        <td><p>ID der Organisation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">oldDomain</span></td>
+        <td><p>Alte Domain (ohne @).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">newDomain</span></td>
+        <td><p>Neue Domain (ohne @).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Result</span>&gt;</td>
+        <td><p>Ergebnis der Massenänderung.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="ET_Backend.Repository.Person.IAccountRepository.html">IAccountRepository</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
